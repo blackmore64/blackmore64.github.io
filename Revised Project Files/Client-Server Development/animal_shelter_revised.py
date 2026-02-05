@@ -37,7 +37,7 @@ class AnimalShelter:
     # -------------------------------
     def _normalize_query_key(self, query: dict) -> str:
         # Converts a MongoDB query dictionary into a stable, hashable cache key.
-        # "sorts_keys = True" helps to ensure logically-identical dicts produce the same key.
+        # "sort_keys = True" helps to ensure logically-identical dicts produce the same key.
         try:
             return json.dumps(query or {}, sort_keys=True, default=str)
             
@@ -72,6 +72,29 @@ class AnimalShelter:
             
         return results
         
+    # Adding an aggregation method here for improvement.
+    def aggregate(self, pipeline: list) -> list:
+        # Run a MongoDB aggregation pipeline and return the results as a list.
+        if pipeline is None:
+            raise ValueError("Pipeline must be provided.")
+        try:
+            return list(self.collection.aggregate(pipeline))
+        
+        except PyMongoError as e:
+            print(f"[ERROR] aggregate failed: {e}")
+            return []
+    
+    # Adding a read_projected method here, for improvement.
+    def read_projected(self, query: dict = None, projection: dict = None) -> list:
+        # Read documents using an optional MongoDB projection (or field selection).
+        try:
+            cursor = self.collection.find(query or {}, projection)
+            return list(cursor)
+        
+        except PyMongoError as e:
+            print(f"[ERROR] find with projection failed: {e}")
+            return []
+
     # ----------------------
     #   CRUD Methods Below
     # ----------------------
@@ -85,6 +108,8 @@ class AnimalShelter:
         
         try:
             self.collection.insert_one(data)
+            # Adding functionality here to clear cache after a successful insertion, for efficiency.
+            self.clear_cache()
             return True
         
         except PyMongoError as e:
@@ -122,7 +147,9 @@ class AnimalShelter:
 
             else:
                 result = self.collection.update_one(query, update_values)
-                
+
+            # Adding functionality here to clear the cache after a successful update, for efficiency.
+            self.clear_cache()    
             return result.modified_count
             
         except PyMongoError as e:
@@ -132,7 +159,7 @@ class AnimalShelter:
             return 0
         
 
-    def delete (self, query : dict, many : bool = False) -> int:
+    def delete(self, query : dict, many : bool = False) -> int:
 
         # Creating a delete function here, to delete any documents matching "query".
         # Similar to the Update function, if "many = True", it will use "delete_many";
@@ -150,7 +177,8 @@ class AnimalShelter:
 
             else:
                 result = self.collection.delete_one(query)
-
+            # Adding functionality here to clear the cache after a successful deletion, for efficiency.
+            self.clear_cache()
             return result.deleted_count
             
         except PyMongoError as e:
