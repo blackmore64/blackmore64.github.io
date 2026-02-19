@@ -13,7 +13,7 @@ Welcome! Below are my artifacts and narratives.
 
 ## Professional Materials
 
-- [Professional Self-Assessment](./Professional%20Self-Assessment.md)
+- [Professional Self-Assessment](https://blackmore64.github.io/Professional%20Self-Assessment.html)
 - [Initial Code Review (Video)](./Initial%20Code%20Review.mp4)
 
 ---
@@ -36,13 +36,13 @@ Welcome! Below are my artifacts and narratives.
 ## Revised Project Files (Enhanced Artifacts)
 
 ### Client-Server Development
-- [Milestone Three Narrative](./Revised%20Project%20Files/Client-Server%20Development/Milestone%20Three%20Narrative.md)
-- [Milestone Four Narrative](./Revised%20Project%20Files/Client-Server%20Development/Milestone%20Four%20Narrative.md)
+- [Milestone Three Narrative](https://blackmore64.github.io/Revised%20Project%20Files/Client-Server%20Development/Milestone%20Three%20Narrative.html)
+- [Milestone Four Narrative](https://blackmore64.github.io/Revised%20Project%20Files/Client-Server%20Development/Milestone%20Four%20Narrative.html)
 - [Project Two Dashboard (Revised)](./Revised%20Project%20Files/Client-Server%20Development/ProjectTwoDashboard%20-%20David%20Deist_revised.ipynb)
 - [Animal Shelter CRUD Module (Revised)](./Revised%20Project%20Files/Client-Server%20Development/animal_shelter_revised.py)
 
 ### Computer Graphics & Design
-- [Milestone Two Narrative](./Revised%20Project%20Files/Computer%20Graphics%20&%20Design/Milestone%20Two%20Narrative.md)
+- [Milestone Two Narrative](https://blackmore64.github.io/Revised%20Project%20Files/Computer%20Graphics%20&%20Design/Milestone%20Two%20Narrative.html)
 - [MainCode.cpp (Revised)](./Revised%20Project%20Files/Computer%20Graphics%20&%20Design/MainCode_revised.cpp)
 - [SceneManager.cpp (Revised)](./Revised%20Project%20Files/Computer%20Graphics%20&%20Design/SceneManger_revised.cpp)
 - [ViewManager.cpp (Revised)](./Revised%20Project%20Files/Computer%20Graphics%20&%20Design/ViewManager_revised.cpp)
