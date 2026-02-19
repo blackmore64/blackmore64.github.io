@@ -1,8 +1,7 @@
 <div align="center">
 
-# CS 499 – Milestone Four Narrative<br>
-## Category Three: Databases<br>
-## David Deist<br>
+<h1>Milestone Four Narrative</h1><br>
+<h2>Category Three: Databases</h2><br>
 
 </div>
 
