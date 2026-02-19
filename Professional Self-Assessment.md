@@ -1,7 +1,6 @@
 <div align="center">
 
 <h1>Professional Self-Assessment</h1><br>
-<h2>David Deist</h2><br>
 
 </div>
 
