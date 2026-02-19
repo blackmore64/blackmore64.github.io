@@ -1,8 +1,7 @@
 <div align="center">
 
-# CS 499 Milestone Two Narrative<br>
-## Category One: Software Design & Engineering<br>
-## David Deist<br>
+<h1>Milestone Two Narrative</h1><br>
+<h2>Category One: Software Design & Engineering</h2><br>
 
 </div>
 
