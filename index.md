@@ -14,7 +14,7 @@ Welcome! Below are my artifacts and narratives.
 ## Professional Materials
 
 - [Professional Self-Assessment](https://blackmore64.github.io/Professional%20Self-Assessment.html)
-- [Initial Code Review (Video)](./Initial%20Code%20Review.mp4)
+- [Initial Code Review (Video)](https://youtu.be/uCNVysOhloA)
 
 ---
 
