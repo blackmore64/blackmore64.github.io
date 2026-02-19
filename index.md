@@ -1,7 +1,7 @@
 <div align="center">
 
-# SNHU Software Development Capstone<br>
-## David Deist<br>
+<h1>SNHU Software Development Capstone</h1><br>
+<h2>David Deist</h2><br>
 
 </div>
 
