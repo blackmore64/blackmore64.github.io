@@ -1,8 +1,7 @@
 <div align="center">
 
-# CS 499 – Milestone Three Narrative<br>
-## Category Two: Algorithms & Data Structures<br>
-## David Deist
+<h1>Milestone Three Narrative</h1><br>
+<h2>Category Two: Algorithms & Data Structures</h2><br>
 
 </div>
 
