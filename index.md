@@ -10,6 +10,7 @@
 Welcome! Below are my artifacts and narratives.
 
 ---
+## Academic Projects & Capstone Work
 
 ## Professional Materials
 
