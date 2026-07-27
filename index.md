@@ -9,12 +9,14 @@
 
 Welcome! This portfolio highlights selected software development projects demonstrating my experience in full-stack web development, authentication, database integration, client-server systems, C++, and interactive software design.
 
+***Note***: If you'd like to take a look at my repos (which include other school projects, plus a new project I recently started), feel free to check it out [here](https://github.com/blackmore64?tab=repositories).
+
 ---
 
 ## Featured Projects
 
 ### Job Tracker Pro
-A full-stack job application tracking dashboard built with **Next.js**, **TypeScript**, and **Supabase**. This project includes secure email/password authentication, user-specific records, full CRUD functionality, search and filtering, dashboard summary metrics, unit testing with Vitest, and technical documentation.
+A full-stack job application tracking dashboard built with **Next.js**, **TypeScript**, and **Supabase**, and was my first foray into the world of AI-assisted development.  I wanted to keep it as simple as possible, and on the whole, I'm pretty pleased with how it turned out. It includes secure email/password authentication, user-specific records, full CRUD functionality, search and filtering, dashboard summary metrics, unit testing with Vitest, and technical documentation.
 
 **Technologies:** Next.js, React, TypeScript, Supabase, PostgreSQL, Tailwind CSS, Vitest
 
